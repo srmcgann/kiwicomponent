@@ -1,0 +1,25 @@
+{
+  "name": "kiwi-vue-component",
+  "version": "1.0.0",
+  "description": "Kiwi Vue Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cp static/* ../../static -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srmcgann/kiwicomponent.git"
+  },
+  "keywords": [
+    "KiwiIrc",
+    "Vue",
+    "Component"
+  ],
+  "author": "Scott McGann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srmcgann/kiwicomponent/issues"
+  },
+  "homepage": "https://github.com/srmcgann/kiwicomponent#readme"
+}
