@@ -1,4 +1,4 @@
-# Kiwi Irc as a vue component -
+# Kiwi Irc as a vue component
 
 This module is to be used in Vuejs projects, and imports the Kiwi Irc app as a component.
 
