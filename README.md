@@ -33,7 +33,7 @@ You will need to provide a Kiwi config object, as shown in the example below:
       components: {
         KiwiIrc
       },
-      data() {
+      data () {
         return {
           kiwiConfig: {
             'windowTitle': 'Kiwi IRC - The web IRC client',
@@ -42,16 +42,16 @@ You will need to provide a Kiwi config object, as shown in the example below:
             'restricted': false,
             'theme': 'Nightswatch',
             'themes': [
-              { 'name': 'Default', 'url': 'static/themes/default" },
-              { 'name': 'Dark', 'url': 'static/themes/dark" },
-              { 'name': 'Coffee', 'url': 'static/themes/coffee" },
-              { 'name': 'GrayFox', 'url': 'static/themes/grayfox" },
-              { 'name': 'Nightswatch', 'url': 'static/themes/nightswatch" },
-              { 'name': 'Osprey', 'url': 'static/themes/osprey" },
-              { 'name': 'Radioactive', 'url': 'static/themes/radioactive" },
-              { 'name': 'Sky', 'url': 'static/themes/sky" }
+              { 'name': 'Default', 'url': 'static/themes/default' },
+              { 'name': 'Dark', 'url': 'static/themes/dark' },
+              { 'name': 'Coffee', 'url': 'static/themes/coffee' },
+              { 'name': 'GrayFox', 'url': 'static/themes/grayfox' },
+              { 'name': 'Nightswatch', 'url': 'static/themes/nightswatch' },
+              { 'name': 'Osprey', 'url': 'static/themes/osprey' },
+              { 'name': 'Radioactive', 'url': 'static/themes/radioactive' },
+              { 'name': 'Sky', 'url': 'static/themes/sky' }
             ],
-            'startupOptions' : {
+            'startupOptions': {
               'server': 'irc.freenode.net',
               'port': 6667,
               'tls': false,
@@ -70,5 +70,14 @@ You will need to provide a Kiwi config object, as shown in the example below:
     }
     </script>
 
-
+    <style>
+    #myapp {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12.5vh;
+        height: 75vh;
+        width: 75%;
+        border: 1px solid black;
+    }
+    </style>
 
