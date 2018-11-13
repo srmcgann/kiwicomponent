@@ -7,9 +7,11 @@ First you will need a working Vuejs project. See [here](https://github.com/vuejs
 
 ### Usage:
 using npm:
+
     npm i kiwi-vue-component
 
 using yarn:
+
     yarn add kiwi-vue-component
 
 Then, in your Vuejs project...
